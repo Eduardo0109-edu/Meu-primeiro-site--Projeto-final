@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #DCDCDC;
+}
+
+.titulo {
+    font-family: 'Mulish', sans-serif;
+}
+
+#banner {
+    padding: 100px;
+    background-image: url(Desigualdadebanner.jpg);
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    text-aling: center;
+    margin-bottom: 80px;
+    display: block;
+}
+
+h2 {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 80px;
+}
+
+h3 {
+    font-size 10px;
+    color: #363636;
+}
+ 
+.acao {
+    background: white;
+    color: grey;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.acao:hover {
+    background: grey;
+    color: white;
+}
+
+#projeto {
+    overflow: hidden;
+    margin: 50px 0;    
+}
+
+#projeto .coluna-esquerda {
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+}
+
+#projeto .coluna-direita {
+   width: 40%;
+    float: right;
+    padding: 0 5%;
+}
+
+.texto-ao-centro {
+    text-align: center;
+}
+
+.margem-baixo {
+    margin-bottom: 20px;
+}
+
+#tipos-de-desigualdade {
+    overflow: hidden;
+}
+
+#tipos-de-desigualdeade .coluna {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin: 50px 0;    
+}
+
+
+.texto-esquerda {
+    text-align: left;
+}
+
+#cabecalho {
+    clear: both;
+    overflow: hidden;
+    background: black;
+    color: gray; 
+    padding: 0 5%;
+  
+}
+
+#logo {
+    width: 170px;
+    float: left;
+    padding: 8px;
+}
+
+#menu {
+    float: right;
+    list-style: none;
+    background: black;
+}
+
+#menu li {
+    float: left;
+    padding: 20px;;
+}
+
+#menu li a {
+    color: gray;
+    text-decoration: none;
+    background: black;
+}
+
+#menu li a:hover {
+    background: gray;
+    color: white;
+    size: cover;
+}
+
+#rodape {
+    margin-top: 50px;
+    background: black;
+    padding: 20px 5%;
+    color: gray;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #selecao .coluna {
+        width: 40%;
+        margin: 5%;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 10vw;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+
+    #projeto {
+        margin-top: 5;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        border-bottom: 1px solid #CCC;
+       
+    }
+
+    #projeto .coluna-esquerda {
+        width: 40%;
+        float: left;
+    }
+
+    #projeto .coluna-direita {
+        width: 40%;
+        float: right;
+        padding: 0 5%;
+    }
+
+    #tipos-de-desigualdade {  
+       box-sizing: border-box;
+       width: 50%;
+       border: 5px solid red;
+       float: left;
+       margin: 5px;
+       padding: 0;
+    }
+    
+    #combate-à-desigualdade {
+        width:220px;
+        padding:10px;
+        border:5px solid gray;
+        margin:0px;
+    }
+    
+
+ 
+
